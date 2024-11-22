@@ -27,7 +27,7 @@ python -m pip install --user pipenv
 
 To activate the virtual environment, run:
 ```sh
-pipenv shell
+python -m pipenv shell
 ```
 
 ### 3. Install Dependencies
