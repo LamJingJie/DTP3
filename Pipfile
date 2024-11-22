@@ -12,6 +12,8 @@ numpy = "*"
 pandas = "*"
 seaborn = "*"
 matplotlib = "*"
+flask-migrate = "*"
+flask-sqlalchemy = "*"
 
 [dev-packages]
 ipykernel = "*"
