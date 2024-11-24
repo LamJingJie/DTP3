@@ -15,5 +15,6 @@ migrate = Migrate(application, db)
 # For vocareum
 application.wsgi_app = PrefixMiddleware(application.wsgi_app, voc=True)
 
+
 from app import routes, models
 

@@ -9,7 +9,8 @@ from datetime import datetime
 # Target table
 class FoodSecurityIndex(db.Model):
     __tablename__ = "fsi"
-    id = db.Column(db.Integer, primary_key=True)
+    id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    years = db.Column(db.Integer)
     self_sufficiency = db.Column(db.Float)
     security_index = db.Column(db.Float)
     
